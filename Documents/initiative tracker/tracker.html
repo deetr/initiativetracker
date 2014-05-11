@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<title>John's Initiative Tracker</title>
+<body id="htmlBody">
+<script src="tracker.js"></script>
+
+<table id="characterTable">
+</table>
+
+<table id="combatTable">
+</table>
+<table id="combatButtons">
+</table>
+
+<table id="characterInputTable">
+<tr>
+	<td>Pic: </td>
+	<td><input type="file" id="picture"><br></td>
+</tr>
+	<td>Name: </td>
+	<td><input type="text" id="name"></br></td>
+</tr>
+<tr>
+	<td>Max HP: </td>
+	<td><input type="text" id="maxhp"></br></td>
+</tr>
+<tr>
+	<td>Current HP: </td>
+	<td><input type="text" id="currentHp"></br></td>
+</tr>
+<tr>
+	<td>Current Surges: </td>
+	<td><input type="text" id="currentSurges"></br></td>
+</tr>
+</table>
+
+<table id="mainControlsTable">
+<tr>
+	<td><button onclick="addCharacter()">Add Character</button></td>
+	<td><button onclick="saveState()">Save state</button></td>
+	<td><button onclick="readState()">Read state</button></td>
+	<td><button onclick="setupCombat()">COMBAT</button></td>
+</tr>
+</table>
+
+</body>
+</html>
